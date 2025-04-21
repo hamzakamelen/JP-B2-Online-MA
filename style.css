@@ -1,0 +1,326 @@
+/* html{
+    font-size: 30px;
+}
+body{
+    font-size: 12px;
+}
+h1{
+    font-family: 'Underdog';
+    font-style: italic;
+} */
+/* p{ */
+/* font-family: 'Fira Sans'; */
+/* font-size: 30px; */
+/* font-size: 30%; */
+/* font-size: 0.5rem; */
+/* font-size: 1rem; */
+/* px , % , em, rem */
+/* Absolute(px,%), Relative(em,rem) */
+/* em - parent */
+/* rem - root */
+
+/* font-weight: bold; */
+/* font-weight: normal; */
+
+/* font-style: italic; */
+/* font-style: normal; */
+/* font-style: oblique; */
+/* line-height: 3.5rem; */
+/* letter-spacing: 0.2rem; */
+/* word-spacing: 1.5em; */
+
+
+/* }
+h2{ */
+/* text-transform: capitalize; */
+/* text-transform: uppercase; */
+/* text-transform: lowercase; */
+/* text-transform: capitalize; */
+
+/* text-decoration-line: underline;
+    text-decoration-style: dotted; */
+/* text-decoration: overline; */
+/* text-decoration: line-through; */
+/* }
+h3{ */
+/* letter-spacing: 2px;
+    word-spacing: 20px; */
+/* font-size: 20px; */
+/* font-size: 2em;
+    font-size: 2rem; */
+/* text-align: center; */
+/* text-align: right; */
+/* text-align: justify;
+    text-indent: 20px; */
+/* text-shadow: right/left  top/bottom blur color; */
+/* text-shadow: 10px 2px 2px skyblue; */
+/* } */
+
+/* p::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    text-shadow: 2px 2px 1px greenyellow;
+} */
+
+/* p::first-line{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    text-shadow: 2px 2px 1px greenyellow;
+} */
+
+
+/* a:link{
+    color: green;
+} */
+/* a:visited{
+
+} */
+/* a:hover{
+    color: brown;
+} */
+/* a:active{
+    color: skyblue;
+} */
+
+
+/* link,visited,hover,active */
+/* first line, first letter */
+
+/* Input - focus/active */
+/* input:focus{
+    background-color: blue;
+}
+input:active{
+    background-color: lightseagreen;
+}
+
+button:active{
+    background-color: brown !important;
+    font-size: 20px !important;
+    color: grey !important;
+}
+button:hover{
+    background-color: lightgreen;
+    font-size: 30px;
+    color: blue;
+} */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.blue {
+    background-color: skyblue;
+    height: 300px;
+    width: 300px;
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    /* padding: 10px;
+    margin: 10px; */
+    /* border-width: 2px; */
+    /* border-width: top right bottom left  - clockwise; */
+    /* border-width: 2px 5px 10px 20px !important; */
+
+    /* border-color: black; */
+
+    /* border-style: dashed; */
+    /* border-style: solid;  */
+    /* border-style: double; */
+
+    /* border: width style color; */
+    /* border: 2px dashed black; */
+
+    /* overflow-x: ; */
+    /* max-width: 600px;
+    min-width: 100px;
+    
+    max-height: 600px;
+    min-height: 100px; */
+    /* px % */
+
+    /* padding: 10px; */
+    /* padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px; */
+}
+
+
+.text{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    /* padding: 10px 20px 30px 40px; */
+    margin: 2px 4px 2px 4px;
+    
+    /* padding: top/bottom left/right; */
+    padding: 20px 40px;
+}
+
+/* li{
+    display: inline;
+} */
+
+/* span{
+    display: block;
+}
+ */
+
+/* li{
+    display: inline-block;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+} */
+
+/* .atif{
+    display: none;
+}
+.umair{
+    visibility: hidden;
+} */
+
+.abc{
+    width: 300px;
+    height: 100px;
+    /* background-color: aqua; */
+    /* box-shadow: horizontal vertical blur spread color; */
+    /* box-shadow: 2px 2px 25px inset black; */
+    /* box-shadow: 2px 2px 25px -2px black; */
+    /* border: 2px solid black; */
+    /* border-radius: 20px;  */
+    
+    border: 10px solid transparent;
+    border-image: url(Capture.PNG) 20% round;
+}
+
+ul{
+    /* list-style-type: circle; */
+    /* list-style-type: disc; */
+    /* list-style-type: none; */
+    list-style-type: square;
+}
+ol{
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-roman; */
+    /* list-style-type: georgian; */
+    /* list-style-type: square;
+    list-style-position: inside; */
+    /* list-style: inside square; */
+    /* list-style-type: symbols(); */
+}
+
+table{
+ empty-cells: hide;
+ /* border-spacing: horizontal vertical; */
+ border-spacing:20px 10px;
+ /* border-collapse: collapse; */
+ border-collapse: separate;
+}
+
+
+input{
+    /* font-size: 20%; */
+    color: aqua;
+    caret-color: red;
+    border-radius: 10px;
+    width: 200px;
+}
+
+input:focus{
+    background-color: greenyellow !important;
+}
+input:hover{
+    background-color: red;
+}
+
+button{
+    background-color: blue;
+    border: 0;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 11px;
+    color: white;
+    margin-top: 100px;
+    display: block;
+    
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* Input text */
+/* Input password */
+/* Input Confirm password */
+/* Radio button Male/female */
+/* Submit Button */
+
+
+/* .new{
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: ultra-condensed;
+} */
+
+.main{
+    background-color: lightblue;
+    width: 600px;
+    height: 700px;
+}
+.box{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border:  1px solid black;
+    margin: 2px;
+    display: inline-block;
+    color: white;
+}
+
+#box3{
+    background-color: green !important;
+    
+    /* position: relative absolute fixed sticky */
+
+    /* relative hojata hai body k normal flow, apni previous jga p gap chordeta hai */
+    /* position: relative;
+    top:100px;
+    left:150px; */
+
+    /* relative hojata hai apny first parent k sath, or apna gap bhi remove krdeta hai (Act esy krta hai jesy yeh hai hi nahi) */
+    /* position: absolute;
+    top:25px;
+    left:20px; */
+
+
+    /* position: fixed;
+    bottom: 10px;
+    right:10px */
+
+    /* position: sticky;
+    top:0px; */
+
+}
+
+
+.img{
+    height: 200px;
+    width: 500px;
+}
+
+.main_div{
+    position: relative;
+}
+
+.text_apple{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
