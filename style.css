@@ -310,7 +310,7 @@ button:hover{
 }
 
 
-.img{
+/* .img{
     height: 200px;
     width: 500px;
 }
@@ -323,4 +323,51 @@ button:hover{
     position: absolute;
     top: 10px;
     left: 10px;
+} */
+
+.cards{
+    border: 1px solid black;
+    display: flow-root;
 }
+.card1{
+    /* border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    position: relative;
+    top:20px;
+    z-index: 1; */
+}
+.card2{
+    /* border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    position: relative;
+    top:-5px;
+    z-index: 0; */
+}
+.card3{
+    /* border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+    position: relative;
+    top:-15px;
+    z-index: -10000; */
+}
+
+/* img{
+    float: right;
+} */
+
+/* z-index -> positioned element except static (relative, absolute, fixed, sticky) */
+/* z-index-> value matter nahi krti  
+-> higher value 
+-> lower value*/
+
+
+/* .card:nth-child(4){
+    background-color: rebeccapurple;
+    clear: right;
+} */
