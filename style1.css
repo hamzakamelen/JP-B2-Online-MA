@@ -1,0 +1,66 @@
+.container{
+    height: 550px;
+    width: 100%;
+    border: 2px solid black;
+    
+    /* Main Reason */
+    display: flex;
+    
+    /* CSS Properties for Main DIV / Container */
+    /* flex-direction */
+    flex-direction: row ; /* By Default - Row */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; reverse row */
+    /* flex-direction: column-reverse; reverse column */
+    
+    /* flex-wrap: wrap (For Responsiveness); */
+    /* flex-wrap: wrap-reverse; */
+
+    /* Short Strick - flex direction + flex-wrap */
+    /* flex-flow: column wrap; */
+
+    /* Justify content */
+    /* justify-content: center;  */
+    /* (X - Axis se center krdeta hai) */
+
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+
+    /* Align Items */
+    /*y-axis */
+    /* align-items: center;  */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+
+}
+.box{
+    background-color: aqua;
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 4px;
+    height: 150px;
+    width: 150px;
+}
+
+#box_1{
+    /* order - Higher Value */
+    order: 300;
+}
+#box_2{
+    order: 1;
+    /* flex-grow: 2; */
+}
+#box_3{
+    order: 2;
+    /* Grow */
+    /* flex-grow: 2; */
+    /* Less */
+    /* flex-shrink: 2; */
+    
+    
+    flex-basis: 550px;
+    /* Flex-direction : Row - Flex-basic control width   */
+    /* Flex-direction : Column - Flex-basic control height   */
+}
