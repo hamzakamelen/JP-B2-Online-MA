@@ -64,3 +64,29 @@
     /* Flex-direction : Row - Flex-basic control width   */
     /* Flex-direction : Column - Flex-basic control height   */
 }
+
+.main{
+    /* height: 500px; */
+    /* width: 700px; */
+    /* width: 100%;
+    border: 1px solid black;
+    background-image: url("https://images.unsplash.com/photo-1745236781096-be405b87d05c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2MHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat; */
+     /* background-repeat: repeat; */
+     /* background-position: bottom center;
+     background-position: center center;
+     background-position: top center; */
+     /* background-position: left center; */
+}
+
+.image{
+    /* height: 500px;
+    width: 700px; */
+    /* object-fit: scale-down; */
+    /* the image is scaled down to the smallest version of none or contain */
+    /* object-fit: cover;  */
+    /* Pixels ko cover krleta hai  - maintain aspect ratio*/
+    /* The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit */
+    /* object-fit: contain;  */
+    /* The image keeps its aspect ratio, but is resized to fit within the given dimension */
+}
