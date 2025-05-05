@@ -1,14 +1,14 @@
-body{
+/* body{
     background-color: aqua;
-}
+} */
 
-.box{
+/* .box{
     height: 100px;
     width: 200px;
     margin: 10px;
     background-color: blue;
     border: 1px solid black;
-}
+} */
 
 
 /* Media Query */
@@ -16,7 +16,7 @@ body{
 
 /* @media screen and () */
 
-@media only screen and (max-width:376px){
+/* @media only screen and (max-width:376px){
     body{
         background-color: brown ;
     }
@@ -27,4 +27,23 @@ body{
         background-color: red;
         border: 1px solid black;
     }
+} */
+
+
+/* CSS Variables */
+
+:root{
+    /* --variable_name: value */
+    /* --website_background: rgb(255, 238, 131); */
+    --font_size:40px;
+    --border_color:green;
+}
+
+
+.box{
+    background-color: var(--website_background,blue);
+    height: 100px;
+    width: 200px;
+    border: 1px solid var(--border_color);
+    /* background-color: ; */
 }
