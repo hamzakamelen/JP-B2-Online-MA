@@ -1,4 +1,17 @@
-body {
+/* body { */
     /* background: #2A7B9B;
     background: radial-gradient(circle, rgba(42, 123, 155, 1) 0%, rgba(171, 87, 199, 1) 71%, rgba(237, 221, 83, 1) 100%); */
+/* } */
+
+.bg_color{
+    background-color: #333E48 !important;
+}
+.navbar_logo{
+    height: 30px !important;
+}
+.sub_banner{
+    width: 350px !important;
+}
+.cms_banner{
+    width: 530px !important
 }
