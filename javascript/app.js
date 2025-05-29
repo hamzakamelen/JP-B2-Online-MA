@@ -216,3 +216,91 @@ console.log(punjab_cities);
 // - Unshift (Starting se value add krdeta hai)
 // - Splice (Add/Remove multiple values in array)
 // - Slice (Copy krdeta hai)
+
+
+// Write a program to store phone manufacturers (Apple,
+// Samsung, Motorola, Nokia, Sony & Haier) in an array.
+// Display the following dropdown/select menu in your
+// browser using document.write() method:
+
+// var phones = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
+// // `` - template literals
+// document.writeln(`
+//     <select style="padding:10px">
+//     <option>${phones[0]}</option>
+//     <option>${phones[0]}</option>
+//     <option>${phones[0]}</option>
+//     <option>${phones[0]}</option>
+//     <option>${phones[0]}</option>
+//     </select>
+//     `)
+
+// document.writeln(`Name: ${phones[1]}`)
+
+
+// ===========Loop===================
+// Iteration,Multiple Times Run, Repeat
+// for loop
+
+// for loop
+// Definition: Kisi bhi cheez ko Specific Number of times run karne ke liye use hota hai
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+
+// var userinput = prompt("Enter City Name");
+
+// if(userinput == cleanestCities[0]){
+//     console.log(`${cleanestCities[0]} is one of the Cleanest Cities`);
+// }else if(userinput == cleanestCities[1]){
+//     console.log(`${cleanestCities[1]} is one of the Cleanest Cities`);
+// }else if(userinput == cleanestCities[2]){
+//     console.log(`${cleanestCities[2]} is one of the Cleanest Cities`);
+// }else if(userinput == cleanestCities[3]){
+//     console.log(`${cleanestCities[3]} is one of the Cleanest Cities`);
+// }
+
+// for(var initialize= startingPoint ; jab tak condition true hogi loop chlega ;increment/decrement)
+// 3 parts
+// for(intialize;condition;increment/decrement){
+// body
+// }
+
+// jab tak i ki value less than ya equal ho 100 k us waqt tak loop chlega
+// for(var i=0;i<=100;i++){
+//     // 101 times - iteration 101
+//     console.log(i);
+// }
+
+// Task: 1-50
+// Task: 100-0
+
+// for(var i=1;i<=20;i++){
+//     console.log(`2 x ${i} = ${2*i}`);
+// }
+
+// Task: User Input Table - 20 print
+// Task: User Input Table - user se length leni hai then print
+
+var cities = ["Karachi","Lahore","Islamabad","Peshawar","Quetta"]
+var userinput = prompt("Enter City Name");
+
+// 4 index
+// 5 elements
+
+// for(var i=0;i<cities.length;i++){
+//     console.log(i);
+// }
+
+// Flag
+var cityFound = false
+for(var i=0;i<=cities.length-1;i++){
+    // console.log(cities[i]);
+    if(userinput == cities[i]){
+        console.log(`${userinput} is found at index ${i}`);
+        cityFound = true
+    }
+}
+
+if(cityFound==false){
+    console.log(`${userinput} is not found`);
+}
+
