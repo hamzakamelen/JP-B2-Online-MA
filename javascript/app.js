@@ -186,7 +186,7 @@ var ID_Card = false
 // console.log(new_arr);
 
 
-var cities = ["Karachi","Lahore","Islamabad","Peshawar","Quetta"]
+var cities = ["Karachi", "Lahore", "Islamabad", "Peshawar", "Quetta"]
 console.log(cities);
 // cities.shift()
 // console.log(cities);
@@ -205,7 +205,7 @@ console.log(cities);
 
 // Slice - copy krega
 // cities.slice(starting Index, Ending Index + 1)
-var punjab_cities = cities.slice(1,3)
+var punjab_cities = cities.slice(1, 3)
 console.log(punjab_cities);
 
 
@@ -280,8 +280,8 @@ console.log(punjab_cities);
 // Task: User Input Table - 20 print
 // Task: User Input Table - user se length leni hai then print
 
-var cities = ["Karachi","Lahore","Islamabad","Peshawar","Quetta"]
-var userinput = prompt("Enter City Name");
+// var cities = ["Karachi", "Lahore", "Islamabad", "Peshawar", "Quetta"]
+// var userinput = prompt("Enter City Name");
 
 // 4 index
 // 5 elements
@@ -291,16 +291,90 @@ var userinput = prompt("Enter City Name");
 // }
 
 // Flag
-var cityFound = false
-for(var i=0;i<=cities.length-1;i++){
-    // console.log(cities[i]);
-    if(userinput == cities[i]){
-        console.log(`${userinput} is found at index ${i}`);
-        cityFound = true
-    }
-}
+// var cityFound = false
+// for(var i=0;i<=cities.length-1;i++){
+//     // console.log(cities[i]);
+//     if(userinput == cities[i]){
+//         console.log(`${userinput} is found at index ${i}`);
+//         cityFound = true
+//     }
+// }
 
-if(cityFound==false){
-    console.log(`${userinput} is not found`);
-}
+// if(cityFound==false){
+//     console.log(`${userinput} is not found`);
+// }
+
+
+// var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+// var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+// var fullNames = [];
+// for (var i = 0; i < firstNames.length; i++) {
+//     for (var j = 0; j < lastNames.length; j++) {
+//         fullNames.push(firstNames[i] + lastNames[j]);
+//     }
+// }
+
+
+// console.log(fullNames);
+
+
+// Changing Case
+// var UserName = "Atif"
+
+// console.log(UserName.toUpperCase());
+// console.log(UserName.toLowerCase());
+
+// var shop = "Icecream"
+
+// var userCustomer = prompt("What do you want")
+
+
+// if(shop.toLowerCase() == userCustomer.toLowerCase()){
+//     console.log("Available");
+// }
+
+// var userName = "Muhammad Atif"
+
+// console.log(userName);
+// console.log(userName.length);
+
+// var month = "September"
+
+// var length = month.length
+
+// if(length>3){
+//     monthAbbrevation = month.slice(0,3)
+// }
+
+// console.log(monthAbbrevation);
+
+// var para = "The '.' They say it shouldbe 'the Second World War.' So lets search the following sentence for the banned charactersand replace them with  II the phrase that the New Yorker prefers."
+
+// console.log(para.indexOf("World War II")); // Starting se
+// console.log(para.lastIndexOf("World War II")); // End se dhundna hai
+
+// IndexOf - Starting se value find krta hai
+// if -- == -1{
+//     // not available
+// }
+
+// var userName = "Faraz Ahmed"
+
+// console.log(userName);
+// console.log(userName.charAt(4));
+// console.log(userName.charAt(userName.length-1));
+
+
+var para = `The New Yorker magazine doesn't allow the phrase "World War II. " They say it should
+be "the Second World War." So let's search the Second World War the following sentence for the the Second World War banned characters
+and replace them with the the Second World War phrase that the New Yorker prefers.`
+
+// var newpara = para.replace("the Second World War","World War II")
+var newpara = para.replace(/the Second World War/g,"World War II")
+
+console.log(newpara);
+
+
+
+
 
