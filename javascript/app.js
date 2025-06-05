@@ -344,9 +344,9 @@ console.log(punjab_cities);
 
 // if(length>3){
 //     monthAbbrevation = month.slice(0,3)
+// console.log(monthAbbrevation);
 // }
 
-// console.log(monthAbbrevation);
 
 // var para = "The '.' They say it shouldbe 'the Second World War.' So lets search the following sentence for the banned charactersand replace them with  II the phrase that the New Yorker prefers."
 
@@ -365,14 +365,99 @@ console.log(punjab_cities);
 // console.log(userName.charAt(userName.length-1));
 
 
-var para = `The New Yorker magazine doesn't allow the phrase "World War II. " They say it should
-be "the Second World War." So let's search the Second World War the following sentence for the the Second World War banned characters
-and replace them with the the Second World War phrase that the New Yorker prefers.`
+// var para = `The New Yorker magazine doesn't allow the phrase "World War II. " They say it should
+// be "the Second World War." So let's search the Second World War the following sentence for the the Second World War banned characters
+// and replace them with the the Second World War phrase that the New Yorker prefers.`
 
-// var newpara = para.replace("the Second World War","World War II")
-var newpara = para.replace(/the Second World War/g,"World War II")
+// // var newpara = para.replace("the Second World War","World War II")
+// var newpara = para.replace(/the Second World War/g,"World War II")
 
-console.log(newpara);
+// console.log(newpara);
+
+
+// var a = "Ehtisham"
+
+// console.log(a.charCodeAt(1));
+
+
+// 26 - Rounding Numbers
+// 1.5 / 1.6 - > 2
+// 1.4 <- 1
+// console.log(Math.round(2.8))
+// console.log(Math.round(2.2))
+// console.log(Math.round(2.5))
+// console.log(Math.round(-2.6))
+
+// var score = 55.7
+// console.log(Math.round(score));
+
+// var score = 55.7
+// score = Math.round(score)
+// console.log(score);
+
+
+// Lowest
+// var score = 55.9
+// score = Math.floor(score)
+// console.log(score);
+
+// Highest
+// var score = 55.9
+// score = Math.ceil(score)
+// console.log(score);
+
+// var score = 55.1
+// score = Math.ceil(score)
+// console.log(score);
+
+// Random Numbers
+
+// var number = Math.random()
+// console.log(Math.ceil(number * 2));
+
+// var dice = Math.floor(Math.random() * 6) + 1
+// console.log(dice);
+
+// Typecasting - Type change
+// var number = "421.66"
+// console.log(number);
+// console.log(typeof number);
+// // Number
+// var number = "421.66"
+// number = Number(number);
+// console.log(number);
+// console.log(typeof number);
+// // Integer
+// var number = "421.66"
+// number = parseInt(number);
+// console.log(number);
+// console.log(typeof number);
+// // Float
+// var number = "421.66"
+// number = parseFloat(number);
+// console.log(number);
+// console.log(typeof number);
+
+// Numbers to String
+// var number = 1234
+// console.log(number);
+// console.log(typeof number);
+
+
+// number = number.toString()
+// console.log(number);
+// console.log(typeof number);
+
+
+var percentage = 78.4466788034673525
+// Controlling the length of the decimals
+console.log(percentage);
+
+percentage = percentage.toFixed(2)
+console.log(percentage);
+
+
+
 
 
 
