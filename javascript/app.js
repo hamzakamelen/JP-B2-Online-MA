@@ -186,8 +186,8 @@ var ID_Card = false
 // console.log(new_arr);
 
 
-var cities = ["Karachi", "Lahore", "Islamabad", "Peshawar", "Quetta"]
-console.log(cities);
+// var cities = ["Karachi", "Lahore", "Islamabad", "Peshawar", "Quetta"]
+// console.log(cities);
 // cities.shift()
 // console.log(cities);
 // cities.unshift("Hyderabad")
@@ -205,8 +205,8 @@ console.log(cities);
 
 // Slice - copy krega
 // cities.slice(starting Index, Ending Index + 1)
-var punjab_cities = cities.slice(1, 3)
-console.log(punjab_cities);
+// var punjab_cities = cities.slice(1, 3)
+// console.log(punjab_cities);
 
 
 // ==========================Array Methods============================
@@ -449,17 +449,78 @@ console.log(punjab_cities);
 // console.log(typeof number);
 
 
-var percentage = 78.4466788034673525
-// Controlling the length of the decimals
-console.log(percentage);
+// var percentage = 78.4466788034673525
+// // Controlling the length of the decimals
+// console.log(percentage);
 
-percentage = percentage.toFixed(2)
-console.log(percentage);
-
-
+// percentage = percentage.toFixed(2)
+// console.log(percentage);
 
 
 
+// Date and Time
+
+// var today = new Date()
+// console.log(today);
+// console.log(today.getDay()); // 0 - Sunday , 4 - Thursday
+// console.log(today.getDate());
+// console.log(today.getMonth()); //Month - 0 -January, 5 - June
+// console.log(today.getFullYear());
+// console.log(today.getHours())
+// console.log(today.getMinutes())
+// console.log(today.getSeconds())
+// console.log(today.getTime())
+
+// Task:
+// Javascript Date Method se Day ka index nikalna hai then Day 
+// (Like: Thursday) SHow krna hai
+// ..arr - Start Sunday
+
+// Task 2:
+// Same for Month
+
+
+// console.log(today.getTime());
+// 1st January 1970 - Today
+
+// var birthday = new Date("Month Date, Year")
+// var birthday = new Date("Nov 3, 2005")
+// console.log(birthday);
+
+
+
+// Age Calculator
+// var today = new Date()
+// var birthday = new Date("Nov 3, 2005")
+// console.log(today.getTime())
+// console.log(birthday.getTime())
+
+// today_time = today.getTime()
+// birthday_time = birthday.getTime()
+
+// var age_time = today_time - birthday_time
+// console.log(age_time);
+
+
+// var age = age_time / (1000 * 60 * 60 * 24 * 365)
+// console.log(age);
+// var age = age_time / (1000 - Seconds * 60 - Minutes * 60 - Hours * 24 - Day * 365 - Year)
+
+
+var today = new Date()
+console.log(today);
+today.setDate(22)
+console.log(today);
+today.setFullYear(3050)
+console.log(today);
+today.setMonth(8)
+console.log(today);
+today.setHours(15)
+console.log(today);
+today.setMinutes(25)
+console.log(today);
+today.setDay(25)
+console.log(today);
 
 
 
