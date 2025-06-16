@@ -507,20 +507,141 @@ var ID_Card = false
 // var age = age_time / (1000 - Seconds * 60 - Minutes * 60 - Hours * 24 - Day * 365 - Year)
 
 
-var today = new Date()
-console.log(today);
-today.setDate(22)
-console.log(today);
-today.setFullYear(3050)
-console.log(today);
-today.setMonth(8)
-console.log(today);
-today.setHours(15)
-console.log(today);
-today.setMinutes(25)
-console.log(today);
-today.setDay(25)
-console.log(today);
+// var today = new Date()
+// console.log(today);
+// today.setDate(22)
+// console.log(today);
+// today.setFullYear(3050)
+// console.log(today);
+// today.setMonth(8)
+// console.log(today);
+// today.setHours(15)
+// console.log(today);
+// today.setMinutes(25)
+// console.log(today);
+// today.setDay(25)
+// console.log(today);
+
+
+// Functions
+// Reusability - Code: 100 places Lines 10 
+// Code Complexity 
+
+// Example: Company Different Departments, Department - Function (Scope)
+
+// Function ka aik Scope hota hai
+// Jab tak Kisi ko usky domain/scope se bahar nahi laya jae
+
+
+// function - keyword
+// function_name - name
+// {Scope} - Scope of Function
+
+// function students(){
+//     // Scope
+// }
+
+
+// function Welcome(){
+//     console.log("Welcome to our Shop!");
+// }
+
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+// Welcome()
+
+// Task 1: Call 10 times your biodata function
+
+// Task 2: Function Time btaye means - jab bh user call krega to usey current time show krwana hai
+
+
+// function Greetings(username){
+//     alert(`Welcome ${username}`)
+// }
+
+// Greetings("Umair")
+// Greetings("Atif")
+// Greetings("Amber")
+// Greetings("Kashif")
+// Greetings()
+
+
+// function Greetings(username="Yougesh"){
+//     alert(`Welcome ${username}`)
+// }
+
+// Greetings("Umair")
+// Greetings("Atif")
+// Greetings("Amber","ABCD")
+// Greetings("Kashif")
+// Greetings()
+
+// Task: User se Pura Data lena hai or marksheet print krwani hai, StudentName,RollNo,English,Urdu.. ,
+
+
+// function Result(Name,Department,English,Urdu,Maths){
+//     // console.log(Name,Department,English,Urdu,Maths);
+//     console.log('====================================');
+//     console.log("Marksheet");
+//     console.log('====================================');
+//     console.log("Subject  Marks")
+//     console.log(`English  ${English}`)
+//     console.log(`Urdu  ${Urdu}`)
+//     console.log(`Maths  ${Maths}`)
+//     var obtained_marks = English+Urdu+Maths
+//     var TotalMarks = 300
+//     var percentage = obtained_marks/TotalMarks*100
+
+//     console.log(`Obtained Marks ${obtained_marks}`);
+//     console.log(`Total Marks ${TotalMarks}`);
+//     console.log(`Percentage ${percentage}`);
+
+//     // Agr kisi ko scope se bahar lana ho to bulana prta hai
+//     return percentage
+// }
+
+// var result = Result("Yougesh",50,100,50,80)
+
+// console.log(result);
 
 
 
+// function calcTot(totalvalue) {
+//     var orderTot;
+//     if (totalvalue >= 100) {
+//         orderTot = totalvalue;
+//     }
+//     else if (totalvalue < 50.01) {
+//         orderTot = totalvalue + 5;
+//     }
+//     else {
+//         orderTot = totalvalue + 5 + (.03 * (totalvalue - 50));
+//     }
+//     return orderTot;
+// }
+
+// var total = calcTot(100)
+
+
+
+// var sum = 100
+// function sumValue(){
+//     var sum = 500
+//     // console.log(sum);
+// }
+// sumValue()
+// console.log(sum);
