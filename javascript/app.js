@@ -645,3 +645,187 @@ var ID_Card = false
 // }
 // sumValue()
 // console.log(sum);
+
+
+// Palindrome - eye,wow,madam
+
+// function Palindrome(str){
+// var lower_case = str.toLowerCase()
+
+// var reverse = lower_case.split('').reverse().join('')
+
+// console.log(lower_case == reverse)
+// }
+
+// Palindrome("wow")
+
+
+// Switch Statements
+// if(today == "Saturday"){
+//     console.log("Today is Saturday");
+// }
+// else if(today == "Sunday"){
+//     console.log("Today is Sunday");
+// }
+// else if(today == "Sunday"){
+//     console.log("Today is Sunday");
+// }
+// else if(today == "Sunday"){
+//     console.log("Today is Sunday");
+// }
+// else if(today == "Sunday"){
+//     console.log("Today is Sunday");
+// }
+// else if(today == "Sunday"){
+//     console.log("Today is Sunday");
+// }
+// else if(today == "Sunday"){
+//     console.log("Today is Sunday");
+// }
+
+// switch
+// (today)
+// Body
+// Different Cases
+
+// var today = "Saturday"
+
+// switch (today) {
+//     case "Sat":
+//         console.log("Today is Saturday");
+//         break
+//     case "Sun":
+//         console.log("Today is Sunday");
+//         break
+//     case "Mon":
+//         console.log("Today is Mon");
+//         break
+//     case "Tue":
+//         console.log("Today is tue");
+//         break
+//     case "Thur":
+//         console.log("Today is Thur");
+//         break
+//     case "Fri":
+//         console.log("Today is Fri");
+//         break
+//     default:
+//         console.log("Nothing");
+// }
+
+
+// While Loop - Condition
+
+// For Loop - for loop (1-10) - Iteration / Array Iteration
+
+// console.log("====== For Loop =======");
+// for(initialization,Condition/Iteration,Increment){body}
+// for (var i = 1; i <= 10; i++) {
+//     console.log(i)
+// }
+
+// console.log("====== While Loop =======");
+// initialization
+// while (condition/iteration) {
+// Body
+// Increment
+// }
+
+// var i = 1
+// while (i <= 10) {
+//     console.log(i);
+//     i++
+// }
+
+// let i = 1;
+// while (i <= 20) {
+//     console.log(i);
+//     i++
+// }
+
+// True ya false = True Run
+
+// var num=5
+
+// // while condition+_true
+
+// // Car - Running -> Break True -> Running: False
+// while (true){
+//     var user = +prompt("Guess a Number")
+
+//     if (user == num){
+//         console.log("Congrats");
+//     }else{
+//         console.log("Try Again");
+//         break
+//     }
+// }
+
+// var num = 3
+// attemp = 0
+// while (true) {
+//     var user = +prompt("Guess a number")
+//     attemp++
+//     if (user == num) {
+//         console.log("Congrats");
+//         break
+//     } else {
+//         console.log("Try Again");
+//     }
+// }
+// sir is there any problem code run nhi horha
+
+// Do While Loop - yeh aik bar lazmi chlega then condition check kregaa
+// Initialization
+// do{
+// Scope
+// increment
+// }while(condition)
+
+// var i = 10
+
+// do{
+//     console.log(i);
+//     i++
+// }while(i<10)
+
+
+// do-while ki real life example - Login Page
+// password
+
+
+// Course
+// 1. Events JS QUiz
+// 2. Calculator App
+// 3. JS DOM
+// - Stopwatch
+// 4. Todo App
+// 5. Objects
+// 6. Quiz App
+// 7. Firebase Database
+// 8. Firebase Authentication
+
+
+// Final 
+// 1. Client Website (With domain name .pk .com etc)
+// 2. Grand Quiz JS
+// 3. Viva
+// 4. Todo App with Database
+// 5. Quiz App with Database
+
+// =============== Events (special occasion)=================
+
+// function Greet() {
+//     console.log("Welcome to our website");
+// }
+
+// function GreetingUser(message) {
+//     console.log(message);
+// }
+
+function expand() {
+    var message = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum at libero sapiente ea, error molestiae nam cupiditate. Tenetur tempore iure harum excepturi non obcaecati vero autem deserunt ex, perferendis dolor numquam accusantium cumque quos sed ad cupiditate perspiciatis odit rem consectetur id dolorum pariatur necessitatibus. Odio doloribus, optio repudiandae enim unde mollitia? Vitae harum reiciendis cupiditate perspiciatis, molestias maiores id optio, ex, illum amet nam temporibus facere alias. Provident quis assumenda pariatur quod nostrum? Vero pariatur libero iste expedita necessitatibus ducimus, quaerat voluptatibus alias voluptate amet tempore vitae nesciunt non maxime eos beatae, nam consequuntur perferendis ut molestias? Soluta sint eius praesentium ex numquam, deleniti consequatur omnis modi repellendus eaque aperiam tempora velit quo? Officiis omnis magni est blanditiis dolore nam voluptatum consectetur mollitia quasi dicta eum, ipsam quam doloribus quibusdam. Veritatis aliquid dolore illo voluptates saepe voluptas laudantium consequatur soluta nam delectus, labore eaque obcaecati sed placeat quidem similique tenetur perferendis ipsa optio, magni vel? Sint atque temporibus consequatur facere. Dolores quasi ipsa, repellat dolorum consectetur laudantium? Aliquam sed vel architecto? Vel quod quam minima dolor iusto doloribus vero unde dolore, neque provident, pariatur assumenda debitis explicabo distinctio! Dolorum odit beatae, provident at inventore sequi ullam quasi doloribus accusantium perferendis officia rerum alias quaerat, velit vero officiis adipisci suscipit ex minima ea veritatis laboriosam. Officiis laborum eveniet molestiae totam nesciunt, rerum, recusandae porro, facere quidem vero pariatur? Natus, saepe quis, voluptate optio voluptatibus quibusdam officia aliquam nihil et voluptas officiis consequatur consequuntur vel dolor molestiae maxime cum beatae exercitationem temporibus tempora provident. Soluta similique cum necessitatibus accusantium, id quibusdam illo. Similique quia doloremque ducimus quis nisi dolorem eum et, quas neque odio. Amet voluptatem nesciunt quia deleniti voluptatum ut, tenetur recusandae fuga corrupti! Fugiat corrupti reiciendis autem hic itaque animi quisquam magnam illum! Molestiae earum natus in atque, vitae est quasi reiciendis asperiores quibusdam architecto quisquam quaerat. Quidem porro, aut deserunt accusantium aliquid voluptatem possimus repellat suscipit tempore et, ipsa impedit neque harum commodi molestias, sunt velit error. Facilis voluptas, similique quaerat aut eius delectus culpa possimus, quisquam accusamus ab modi voluptatibus obcaecati totam itaque dolorem sed voluptatum ipsa mollitia quasi nobis corrupti dolor odio sit excepturi. Impedit ad magnam voluptate quas, natus sed deleniti nesciunt necessitatibus suscipit hic distinctio eaque ea provident fuga. Fugit dicta soluta debitis doloremque ad, alias distinctio dolore. Consequuntur provident aut, dolorem accusamus nihil animi velit, neque cum aperiam laborum et perspiciatis dicta incidunt ipsa voluptates iusto adipisci odit. Nam distinctio tenetur autem dignissimos, consectetur facilis vero minima ratione consequatur saepe commodi, blanditiis, labore totam reiciendis fugiat cum neque reprehenderit amet. Aliquam minima quis maiores ex ipsa doloremque nihil omnis? Saepe labore voluptate adipisci eligendi, minima nobis earum laboriosam hic perspiciatis voluptates? Fuga ipsam quidem alias mollitia amet? Eos perferendis doloremque reprehenderit corrupti voluptatum hic atque aut mollitia delectus ducimus a consequuntur dolore iusto debitis illo nulla accusantium accusamus, vero aperiam officiis! Nihil sapiente eos harum magnam alias maxime, illum pariatur aliquam incidunt nam rerum iste, omnis officiis excepturi tempora. Mollitia corporis eveniet natus."
+    console.log(message);
+    document.getElementById('paragraph').innerHTML = message
+
+}

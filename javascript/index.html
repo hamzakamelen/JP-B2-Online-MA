@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
 
+<body>
+    <a href="www.google.com" onclick="alert('Events Working')">Google</a>
+    <a href="" onclick="console.log('Events Working2')">Google</a>
+
+    <button onclick="console.log('Im Running')">Click Me</button>
+    <button onclick="Greet()">Message</button>
+    <button onclick="GreetingUser('Congratulations! you won')">New Message</button>
+
+    <img src="./download.jfif" onclick="src='./download2.jfif'" alt="">
+    <img src="./download.jfif" onmouseout="src='./download.jfif'" onmouseover="src='./download2.jfif'" alt="">
+
+    <a href="#" onclick="this.style.color='red';">NEW</a>
+
+
+    <input onfocus="this.style.backgroundColor = 'green'" type="text">
+    <input onblur="this.style.backgroundColor = 'yellow'" type="text">
+
+    <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, officia! Voluptates, corrupti ea maiores
+        id possimus provident deleniti sed enim. Illo deserunt facere doloremque maiores quod consequatur quas non
+        cum....... <a href="#" onclick="expand()">Click to see more</a></p>
+<p></p>
     <script src="app.js"></script>
 </body>
+
 </html>
